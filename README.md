@@ -1,6 +1,7 @@
 ## Build Inspencer Game Engine ________________________________________________v0.0.0.2  
   in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer)
   
+  the engine is focused on being made all JAVA
   
 The Engine uses LwjGL 3 as the main renderer.  
 in the future I will implement Software Render and import the DirectX 3d libraries into JAVA
