@@ -84,7 +84,7 @@ public class CoreEngine
 				
 				if(frameCounter >= 1.0)
 				{
-					System.out.println(frames);
+					System.out.println("FPS " + frames);
 					frames = 0;
 					frameCounter = 0;
 				}
