@@ -13,6 +13,9 @@ public class TestGame extends Game
 		Material corpoMaterial = new Material(new Texture("corpo.png"), 0, 0,
 			new Texture("corpo_normal.png"), new Texture("corpo_disp.png"), 0.03f, -0.5f);
 		
+		Material brick = new Material(new Texture("bricks2.jpg"), 0, 0,
+				new Texture("bricks2_normal.jpg"), new Texture("bricks2_disp.jpg"), 0.03f, -0.5f);
+		
 		Material face = new Material(new Texture("face.png"), 1, 8,
 				new Texture("face_normal.png"), new Texture("face_disp.png"), 0.03f, -0.5f);
 
@@ -21,14 +24,21 @@ public class TestGame extends Game
 		
 		Material stone = new Material(new Texture("stone.jpg"), 1, 8,
 				new Texture("stone_normal.jpg"), new Texture("stone_disp.jpg"), 0.04f, -1.0f);
+		
+		Material gradisu = new Material(new Texture("gradisu.jpg"), 0, 0,
+				new Texture("bricks2_normal.jpg"), new Texture("bricks2_disp.jpg"), 0.03f, -0.5f);
 
 		Mesh tempMesh = new Mesh("player.obj");
 
-		MeshRenderer meshRenderer = new MeshRenderer(mesh, stone);
-
+		MeshRenderer meshRenderer = new MeshRenderer(mesh, brick);
+		MeshRenderer planeGradisu = new MeshRenderer(mesh, gradisu);
 		GameObject planeObject = new GameObject();
 		planeObject.AddComponent(meshRenderer);
 		planeObject.GetTransform().GetPos().Set(0, -1, 5);
+		
+		GameObject planeWall = new GameObject();
+		planeWall.AddComponent(planeGradisu);
+		planeWall.GetTransform().GetPos().Set(5, -6, 4);
 
 		GameObject directionalLightObject = new GameObject();
 		DirectionalLight directionalLight = new DirectionalLight(new Vector3f(0,0,1), 0.4f);
@@ -51,6 +61,7 @@ public class TestGame extends Game
 		AddObject(directionalLightObject);
 		AddObject(pointLightObject);
 		AddObject(spotLightObject);
+		AddObject(planeWall);
 
 		GameObject testMesh3 = new GameObject().AddComponent(new LookAtComponent()).AddComponent(new MeshRenderer(tempMesh, corpoMaterial));
 
