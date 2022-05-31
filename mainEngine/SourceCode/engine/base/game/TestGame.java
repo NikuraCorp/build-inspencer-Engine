@@ -1,4 +1,4 @@
-
+/*Aqui Onde Fica montado seu jogo*/
 package engine.base.game;
 
 import engine.base.engine.components.*;
@@ -9,6 +9,7 @@ public class TestGame extends Game
 {
 	public void Init()
 	{
+		
 		Mesh mesh = new Mesh("plane3.obj");
 		Material corpoMaterial = new Material(new Texture("corpo.png"), 0, 0,
 			new Texture("corpo_normal.png"), new Texture("corpo_disp.png"), 0.03f, -0.5f);
@@ -41,12 +42,12 @@ public class TestGame extends Game
 		planeWall.GetTransform().GetPos().Set(0, 8, 5);
 
 		GameObject directionalLightObject = new GameObject();
-		DirectionalLight directionalLight = new DirectionalLight(new Vector3f(0,0,1), 0.4f);
+		DirectionalLight directionalLight = new DirectionalLight(new Vector3f(0,0,3), 0.2f);
 
 		directionalLightObject.AddComponent(directionalLight);
 
 		GameObject pointLightObject = new GameObject();
-		pointLightObject.AddComponent(new PointLight(new Vector3f(0, 1, 0), 0.4f, new Attenuation(0, 0, 1)));
+		pointLightObject.AddComponent(new PointLight(new Vector3f(3, 3, 5), 0.4f, new Attenuation(0, 0, 1)));
 
 		SpotLight spotLight = new SpotLight(new Vector3f(0,1,1), 0.4f,
 				new Attenuation(0,0,0.1f), 0.7f);
@@ -54,8 +55,8 @@ public class TestGame extends Game
 		GameObject spotLightObject = new GameObject();
 		spotLightObject.AddComponent(spotLight);
 
-		spotLightObject.GetTransform().GetPos().Set(5, 0, 5);
-		spotLightObject.GetTransform().SetRot(new Quaternion(new Vector3f(0, 1, 0), (float) Math.toRadians(90.0f)));
+		spotLightObject.GetTransform().GetPos().Set(1, 3, 5);
+		spotLightObject.GetTransform().SetRot(new Quaternion(new Vector3f(2, 1, 0), (float) Math.toRadians(80.0f)));
 
 		AddObject(planeObject);
 		AddObject(directionalLightObject);
@@ -67,17 +68,17 @@ public class TestGame extends Game
 
 		AddObject(
 				//AddObject(
-				new GameObject().AddComponent(new FreeLook(0.3f)).AddComponent(new FreeMove(2.3f))
+				new GameObject().AddComponent(new FreeLook(0.3f)).AddComponent(new FreeMove(2.5f))
 						.AddComponent(new Camera(new Matrix4f().InitPerspective((float) Math.toRadians(70.0f),
-								(float) Window.GetWidth() / (float) Window.GetHeight(), 0.01f, 1000.0f))));
+								(float) Window.GetWidth() / (float) Window.GetHeight(), 0.02f, 1000.0f))));
 
 		AddObject(testMesh3);
 
 		testMesh3.GetTransform().GetPos().Set(5, 5, 5);
-		testMesh3.GetTransform().SetRot(new Quaternion(new Vector3f(0, 1, 0), (float) Math.toRadians(-70.0f)));
+		testMesh3.GetTransform().SetRot(new Quaternion(new Vector3f(0, 1, 0), (float) Math.toRadians(-60.0f)));
 
 		AddObject(new GameObject().AddComponent(new MeshRenderer(new Mesh("player.obj"), corpoMaterial)));
 
-		directionalLight.GetTransform().SetRot(new Quaternion(new Vector3f(1, 0, 0), (float) Math.toRadians(-45)));
+		directionalLight.GetTransform().SetRot(new Quaternion(new Vector3f(2, 3, 0), (float) Math.toRadians(-75)));
 	}
 }
