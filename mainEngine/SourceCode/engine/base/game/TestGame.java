@@ -38,7 +38,7 @@ public class TestGame extends Game
 		
 		GameObject planeWall = new GameObject();
 		planeWall.AddComponent(planeGradisu);
-		planeWall.GetTransform().GetPos().Set(5, -6, 4);
+		planeWall.GetTransform().GetPos().Set(0, 8, 5);
 
 		GameObject directionalLightObject = new GameObject();
 		DirectionalLight directionalLight = new DirectionalLight(new Vector3f(0,0,1), 0.4f);
