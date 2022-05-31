@@ -1,4 +1,4 @@
-## Build Inspencer Game Engine ________________________________________________v0.0.0.2  
+## Build Inspencer Game Engine ________________________________________________v0.0.0.3  
   in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer)
   
   the engine is focused on being made all JAVA
