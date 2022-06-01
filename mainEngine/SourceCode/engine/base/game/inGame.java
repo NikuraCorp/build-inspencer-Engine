@@ -27,7 +27,7 @@ public class inGame extends Game
 				new Texture("stone_normal.jpg"), new Texture("stone_disp.jpg"), 0.04f, -1.0f);
 		
 		Material gradisu = new Material(new Texture("gradisu.jpg"), 0, 0,
-				new Texture("bricks2_normal.jpg"), new Texture("bricks2_disp.jpg"), 0.03f, -0.5f);
+				new Texture("plane_normal.png"), new Texture("bricks2_disp.jpg"), 0.03f, -0.5f);
 
 		Mesh tempMesh = new Mesh("player.obj");
 
