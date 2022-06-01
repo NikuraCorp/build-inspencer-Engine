@@ -5,7 +5,7 @@ import engine.base.engine.components.*;
 import engine.base.engine.core.*;
 import engine.base.engine.rendering.*;
 
-public class TestGame extends Game
+public class inGame extends Game
 {
 	public void Init()
 	{
