@@ -7,8 +7,8 @@ public class mainMethod
 {
 	public static void main(String[] args)
 	{ /*Propriedades da janela*/
-		CoreEngine engine = new CoreEngine(1000, 600, 500, new inGame());
-		engine.CreateWindow("Build Inspencer" + " FPS");
-		engine.Start();
+		CoreEngine windowEngine = new CoreEngine(1300, 700, 500, new inGame());
+		windowEngine.CreateWindow("Build Inspencer" + " FPS");
+		windowEngine.Start();
 	}
 }
