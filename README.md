@@ -29,3 +29,42 @@ Build Inspencer uses Opengl 3.0 + as a renderer promising good graphics for the 
   this code is easy to modify the lwjgl bookstore has excellent transformable codes with many tutorials on the internet teaching it
   
   the [lwjgl](https://www.lwjgl.org/guide)
+  
+  
+### Future Implements ...
+</div>
+
+- [ ] player entity
+- [ ] third and firstperson camera  
+- [ ] maps files  
+- [ ] big map  
+- [ ] optimization  
+- [ ] game menu
+- [ ] pause menu
+- [ ] inventory
+- [ ] more gui system
+- [ ] hud system
+- [ ] CPU Render adapt
+- [ ] Multiplayer support
+- [ ] LAN & Dedicated servers
+- [ ] BOTS
+- [ ] AI
+- [ ] skin selector M & F
+- [ ] clothing selection
+- [ ] realistic hair
+- [ ] Vulkan Render
+- [ ] damage and life
+- [ ] enemies
+- [ ] animation system
+- [ ] COLLADA FILES .DAE
+- [ ] FBX Files 
+- [ ] long view all in all
+- [ ] vehicles
+- [ ] map editor
+- [ ] model editor
+- [ ] entity editor
+- [ ] texture editor
+- [ ] more editor helps
+- [ ] range guns
+- [ ] 
+
