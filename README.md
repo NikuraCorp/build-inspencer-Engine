@@ -12,8 +12,10 @@
   .  
   the engine is focused on being made all JAVA  
   
-  The Engine uses LwjGL 3 as the main renderer.   
-  in the future I will implement Software Render and import the DirectX 3d libraries into JAVA  
+  The Engine uses [LwjGL 3](https://www.lwjgl.org) as the main renderer.   
+  in the future I will implement  
+  * Software Render 
+  * and import DirectX 3d libraries into JAVA  
 
 ## Low Engine Power
 
