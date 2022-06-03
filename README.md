@@ -1,7 +1,14 @@
 ## Build Inspencer Game Engine ________________________________________________v0.0.0.3  
   in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer);
   
-  Tools Used : [ECLIPSE IDE for Java Devs](https://www.eclipse.org/downloads/);
+  https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png
+  
+
+  <img align="left" height="150em" src="https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png"/>
+  
+  
+  Download IDE: [ECLIPSE IDE for Java Devs](https://www.eclipse.org/downloads/);  
+  
   
   the engine is focused on being made all JAVA
   
