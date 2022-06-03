@@ -26,9 +26,12 @@ Build Inspencer uses Opengl 3.0 + as a renderer promising good graphics for the 
   this code is easy to modify the lwjgl bookstore has excellent transformable codes with many tutorials on the internet teaching it
   
   
-### LWJGL Render
+##  Renders
 
-  the [lwjgl](https://www.lwjgl.org/guide)
+1 LWJGL 3 
+OPenGL Library JAVA
+*  the [LWJGL](https://www.lwjgl.org/guide)
+  
   
   
 ### Future Implements ...
