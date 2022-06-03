@@ -5,9 +5,8 @@
 
   <img align="left" height="150em" src="https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png"/>  
   
-  Download: [ ECLIPSE IDE ](https://www.eclipse.org/downloads/) <  
-  
-  
+  Download: [ ECLIPSE IDE ](https://www.eclipse.org/downloads/)  
+  .  
   ## The Project  ##
   .  
   .  
