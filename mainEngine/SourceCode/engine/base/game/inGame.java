@@ -11,7 +11,6 @@ public class inGame extends Game
 	{
 		/*Models*/
 		
-		Mesh mesh2 = new Mesh("plane2.obj");
 		Mesh mesh = new Mesh("plane3.obj");
 		
 		/*Textures */
@@ -36,13 +35,8 @@ public class inGame extends Game
 		Mesh tempMesh = new Mesh("player.obj");
 
 		MeshRenderer meshRenderer = new MeshRenderer(mesh, brick);
-		MeshRenderer meshRenderer2 = new MeshRenderer(mesh, brick);
-		MeshRenderer planeGradisu = new MeshRenderer(mesh2, gradisu);
-	
+		MeshRenderer planeGradisu = new MeshRenderer(mesh, gradisu);
 		
-		GameObject planeObject2 = new GameObject();
-		planeObject2.AddComponent(meshRenderer2);
-		planeObject2.GetTransform().GetPos().Set(16, 1, 8);
 		
 		GameObject planeObject = new GameObject();
 		planeObject.AddComponent(meshRenderer);
@@ -70,7 +64,6 @@ public class inGame extends Game
 		spotLightObject.GetTransform().SetRot(new Quaternion(new Vector3f(2, 1, 0), (float) Math.toRadians(60.0f)));
 
 		AddObject(planeObject);
-		AddObject(planeObject2);
 		AddObject(directionalLightObject);
 		AddObject(pointLightObject);
 		AddObject(spotLightObject);
@@ -81,7 +74,7 @@ public class inGame extends Game
 
 		AddObject(
 				//AddObject(
-				new GameObject().AddComponent(new FreeLook(0.3f)).AddComponent(new FreeMove(2.5f))
+				new GameObject().AddComponent(new FreeLook(0.3f)).AddComponent(new FreeMove(3.0f))
 						.AddComponent(new Camera(new Matrix4f().InitPerspective((float) Math.toRadians(60.0f),
 								(float) Window.GetWidth() / (float) Window.GetHeight(), 0.02f, 1000.0f))));
 
