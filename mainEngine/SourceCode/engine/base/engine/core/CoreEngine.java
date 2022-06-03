@@ -13,19 +13,25 @@ public class CoreEngine
 	private int             m_height;
 	private double          m_frameTime;
 	
-	public CoreEngine(int width, int height, double framerate, Game game)
+	public int WIDTH = 1300;
+	public int HEIGHT = 700;
+	public double FPS_CAP = 500;
+	public static final String windowTitle = "Build Inspencer";
+	
+	public CoreEngine(Game game)
 	{
 		this.m_isRunning = false;
 		this.m_game = game;
-		this.m_width = width;
-		this.m_height = height;
-		this.m_frameTime = 1.0/framerate;
+		this.m_width = WIDTH;
+		this.m_height = HEIGHT;
+		this.m_frameTime = 1.0/FPS_CAP;
 		game.SetEngine(this);
 	}
+		
 
 	public void CreateWindow(String title)
 	{
-		Window.CreateWindow(m_width, m_height, title);
+		Window.CreateWindow(m_width, m_height, windowTitle);
 		this.m_renderingEngine = new RenderingEngine();
 	}
 
@@ -82,9 +88,9 @@ public class CoreEngine
 				
 				m_game.Update((float) m_frameTime);
 				
-				if(frameCounter >= 1.0)
+				if(frameCounter >= 0.5)
 				{
-					System.out.println("FPS " + frames);
+					System.out.println("FPS :" + frames);
 					frames = 0;
 					frameCounter = 0;
 				}
