@@ -1,5 +1,5 @@
 ## Build Inspencer Game Engine ________________________________________________v0.0.0.3  
-  in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer)
+  * in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer)
   
   
 
@@ -7,6 +7,7 @@
   
   Download: [ ECLIPSE IDE ](https://www.eclipse.org/downloads/)  
   ## The Project  ##
+  * .
   * .  
    * Project started in 2021  
   the engine is focused on being made all > JAVA <  
