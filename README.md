@@ -10,11 +10,13 @@
   Download IDE: [ECLIPSE IDE for Java Devs](https://www.eclipse.org/downloads/);  
   
   
-  ## The Project
-  the engine is focused on being made all JAVA
+  ## The Project  ##
+  .  
+  .  
+  the engine is focused on being made all JAVA  
   
-  The Engine uses LwjGL 3 as the main renderer.  
-  in the future I will implement Software Render and import the DirectX 3d libraries into JAVA
+  The Engine uses LwjGL 3 as the main renderer.   
+  in the future I will implement Software Render and import the DirectX 3d libraries into JAVA  
 
 ## Low Engine Power
 
