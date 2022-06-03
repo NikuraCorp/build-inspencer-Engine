@@ -66,5 +66,5 @@ Build Inspencer uses Opengl 3.0 + as a renderer promising good graphics for the 
 - [ ] texture editor
 - [ ] more editor helps
 - [ ] range guns
-- [ ] 
+- [x] ... in dev now ?
 
