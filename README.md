@@ -1,13 +1,11 @@
 ## Build Inspencer Game Engine ________________________________________________v0.0.0.3  
-  in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer);
+  in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer)
   
   
 
   <img align="left" height="150em" src="https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png"/>  
-    
-    
-    
-  Download IDE: [ECLIPSE IDE for Java Devs](https://www.eclipse.org/downloads/);  
+  
+  Download IDE: [ ECLIPSE IDE ](https://www.eclipse.org/downloads/) <  
   
   
   ## The Project  ##
@@ -28,6 +26,9 @@ Build Inspencer uses Opengl 3.0 + as a renderer promising good graphics for the 
 
   this code is easy to modify the lwjgl bookstore has excellent transformable codes with many tutorials on the internet teaching it
   
+  
+### LWJGL Render
+
   the [lwjgl](https://www.lwjgl.org/guide)
   
   
