@@ -1,19 +1,20 @@
 ## Build Inspencer Game Engine ________________________________________________v0.0.0.3  
   in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer);
   
-  https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png
   
 
-  <img align="left" height="150em" src="https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png"/>
-  
-  
+  <img align="left" height="150em" src="https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png"/>  
+    
+    
+    
   Download IDE: [ECLIPSE IDE for Java Devs](https://www.eclipse.org/downloads/);  
   
   
+  ## The Project
   the engine is focused on being made all JAVA
   
-The Engine uses LwjGL 3 as the main renderer.  
-in the future I will implement Software Render and import the DirectX 3d libraries into JAVA
+  The Engine uses LwjGL 3 as the main renderer.  
+  in the future I will implement Software Render and import the DirectX 3d libraries into JAVA
 
 ## Low Engine Power
 
