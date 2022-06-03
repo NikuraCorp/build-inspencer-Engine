@@ -6,11 +6,11 @@
   <img align="left" height="150em" src="https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png"/>  
   
   Download: [ ECLIPSE IDE ](https://www.eclipse.org/downloads/)  
-  .  
+  * .  
   ## The Project  ##
-  .  
-  .  
-  the engine is focused on being made all JAVA  
+  * .  
+   * Project started in 2021  
+  the engine is focused on being made all > JAVA <  
   
   The Engine uses [LwjGL 3](https://www.lwjgl.org) as the main renderer.   
   in the future I will implement  
