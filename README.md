@@ -39,6 +39,7 @@ OPenGL Library JAVA
 ### Future Implements ...
 </div>
 
+- [ ] config Loader
 - [ ] player entity
 - [ ] third and firstperson camera  
 - [ ] maps files  
