@@ -10,7 +10,7 @@
   * .
   * .  
    * Project started in 2021  
-  the engine is focused on being made all > JAVA <  
+  the engine is focused on being made all > JAVA <  ? nah
   
   The Engine uses [LwjGL 3](https://www.lwjgl.org) as the main renderer.   
   in the future I will implement  
