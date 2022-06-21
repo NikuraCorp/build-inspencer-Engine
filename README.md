@@ -14,27 +14,17 @@
   
   The Engine uses [LwjGL 3](https://www.lwjgl.org) as the main renderer.   
   in the future I will implement  
-  * Software Render 
-  * and import DirectX 3d libraries into JAVA  \/
-  * FIX Directx4j system
-
-## Low Engine Power
-
-Little Performance...  
   
-I know sometimes the FPS drops this version is not stable  
-
-Build Inspencer uses Opengl 3.0 + as a renderer promising good graphics for the engine
-
-  this code is easy to modify the lwjgl bookstore has excellent transformable codes with many tutorials on the internet teaching it
-  
-  
+  * DirectX 4J    DX9/10/11
+  * DX9 is First
+    
 ##  Renders
 
 1 LWJGL 3 
 OPenGL Library JAVA
+
+Engine uses Opengl 2.0 +
 *  the [LWJGL](https://www.lwjgl.org/guide)
-  
   
   
 ### Future Implements ...
