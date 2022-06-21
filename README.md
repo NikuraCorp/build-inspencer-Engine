@@ -42,7 +42,6 @@ Engine uses Opengl 2.0 +
 - [ ] inventory
 - [ ] more gui system
 - [ ] hud system
-- [ ] CPU Render adapt
 - [ ] Multiplayer support
 - [ ] LAN & Dedicated servers
 - [ ] BOTS
@@ -50,7 +49,6 @@ Engine uses Opengl 2.0 +
 - [ ] skin selector M & F
 - [ ] clothing selection
 - [ ] realistic hair
-- [ ] Vulkan Render
 - [ ] damage and life
 - [ ] enemies
 - [ ] animation system
