@@ -10,7 +10,8 @@
   * .
   * .  
    * Project started in 2021  
-  the engine is focused on being made all > JAVA <  ? nah
+   * 
+I think this engine should work on old machines with low graphics level. based on computers 2009 and up
   
   The Engine uses [LwjGL 3](https://www.lwjgl.org) as the main renderer.   
   in the future I will implement  
