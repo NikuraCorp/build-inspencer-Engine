@@ -8,7 +8,7 @@
   Download: [ ECLIPSE IDE ](https://www.eclipse.org/downloads/)  
   ## The Project  ##
   * .
-  * .  
+  * .  How setup ?  [ HERE !](https://github.com/NikuraCorp/build-inspencer-Engine/wiki/How-to-setup-it-in-Eclipse-IDE-%3F)
    * Project started in 2021  
    * 
 I think this engine should work on old machines with low graphics level. based on computers 2009 and up
