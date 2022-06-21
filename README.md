@@ -21,8 +21,8 @@ I think this engine should work on old machines with low graphics level. based o
     
 ##  Renders
 
-1 LWJGL 3 
-OPenGL Library JAVA
+1 LWJGL 2.9.1   
+OPen Game Library JAVA  
 
 Engine uses Opengl 2.0 +
 *  the [LWJGL](https://www.lwjgl.org/guide)
