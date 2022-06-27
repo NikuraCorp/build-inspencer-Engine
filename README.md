@@ -1,7 +1,6 @@
 ## Build Inspencer Game Engine ________________________________________________v0.0.0.3  
   * in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer)
   
-  
 
   <img align="left" height="100em" src="https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png"/>  
   
