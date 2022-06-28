@@ -1,10 +1,16 @@
 ## Build Inspencer Game Engine ________________________________________________v0.0.0.3  
   * in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer)
   
-
-  <img align="left" height="100em" src="https://www.eclipse.org/org/artwork/images/eclipse_ide_logo.png"/>  
   
-  Download: [ ECLIPSE IDE ](https://www.eclipse.org/downloads/)  
+  ## Requirements
+
+|                                                                                                                             |                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://img.shields.io/badge/Eclipse%20IDE-E374B0?style=for-the-badge&logo=eclipse&logoColor=white" /> | [ ECLIPSE IDE ](https://www.eclipse.org/downloads/) |
+| <img src="https://img.shields.io/badge/LWJGL-000000?style=for-the-badge&logo=opengl&logoColor=white" />                     | `together with BIGE IN Libraries/jar Folder`                      |
+| <img src="https://img.shields.io/badge/NATIVES-000000?style=for-the-badge&logo=&logoColor=white" />                     | `together with BIGE IN 
+ 
+  
   ## The Project  ##
   * .
   * .  How setup ?  [ HERE !](https://github.com/NikuraCorp/build-inspencer-Engine/wiki/How-to-setup-it-in-Eclipse-IDE-%3F)
