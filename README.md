@@ -9,6 +9,7 @@
 |||
 |-|-|
 | <img src="https://img.shields.io/badge/Eclipse%20IDE-E374B0?style=for-the-badge&logo=eclipse&logoColor=white" /> | [ Download Eclipse IDE ](https://www.eclipse.org/downloads/) |
+| JAVA 8+|
 | <img src="https://img.shields.io/badge/LWJGL-000000?style=for-the-badge&logo=opengl&logoColor=white" />                     | `together with Project IN Libraries/jar Folder`                      |
 | <img src="https://img.shields.io/badge/NATIVES-000000?style=for-the-badge&logo=&logoColor=white" />                     | `together with Project IN Libraries/natives Folder` |
 
