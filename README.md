@@ -2,6 +2,8 @@
   * in memories of [Bud Spencer](https://en.wikipedia.org/wiki/Bud_Spencer)
   
   
+  I started the project with tutorials on the internet there is certainly nothing interesting for "while"! the focus of this engine will be the use of DirectX for java
+  
   ## Requirements
 
 |||
