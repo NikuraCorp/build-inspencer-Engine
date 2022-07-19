@@ -20,7 +20,7 @@
   * .  How setup ?  [ HERE !](https://github.com/NikuraCorp/build-inspencer-Engine/wiki/How-to-setup-it-in-Eclipse-IDE-%3F)
    * Project started in 2021  
    * 
-I think this engine should work on old machines with low graphics level. based on computers 2009 and up
+I think this engine should work on old machines with low graphics level. based on computers 2009 
   
   The Engine uses [LwjGL](https://www.lwjgl.org) as the main renderer.   
   in the future I will implement  
