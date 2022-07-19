@@ -25,7 +25,7 @@ I think this engine should work on old machines with low graphics level. based o
   The Engine uses [LwjGL](https://www.lwjgl.org) as the main renderer.   
   in the future I will implement  
   
-  * DirectX 4J    DX9/11
+  * DirectX DX9/11
   * DX9 is First
    
 ### Future Implements ...
