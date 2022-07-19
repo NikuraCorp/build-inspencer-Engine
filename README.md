@@ -6,11 +6,11 @@
   
   ## Requirements
 
-|||
+|Requirements are included in the project||
 |-|-|
-| <img src="https://img.shields.io/badge/Eclipse%20IDE-E374B0?style=for-the-badge&logo=eclipse&logoColor=white" /> | [ Download Eclipse IDE ](https://www.eclipse.org/downloads/) |
-| JAVA 8+|
-| <img src="https://img.shields.io/badge/LWJGL-000000?style=for-the-badge&logo=opengl&logoColor=white" />                     | `together with Project IN Libraries/jar Folder`                      |
+| JAVA 8+|`logic`|
+| LWJGL 2.9.1                      | `together with Project IN Libraries/jar Folder`                      |
+|jdw |`not yet included because Directx is having project problems`|
 | <img src="https://img.shields.io/badge/NATIVES-000000?style=for-the-badge&logo=&logoColor=white" />                     | `together with Project IN Libraries/natives Folder` |
 
  
@@ -22,21 +22,12 @@
    * 
 I think this engine should work on old machines with low graphics level. based on computers 2009 and up
   
-  The Engine uses [LwjGL 3](https://www.lwjgl.org) as the main renderer.   
+  The Engine uses [LwjGL](https://www.lwjgl.org) as the main renderer.   
   in the future I will implement  
   
-  * DirectX 4J    DX9/10/11
+  * DirectX 4J    DX9/11
   * DX9 is First
-    
-##  Renders
-
-1 LWJGL 2.9.1   
-OPen Game Library JAVA  
-
-Engine uses Opengl 2.0 +
-*  the [LWJGL](https://www.lwjgl.org/guide)
-  
-  
+   
 ### Future Implements ...
 </div>
 
